@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Makanan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+
+        body {
+            font-family: Arial, Helvetica;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #e096dd;
+            color:#e096dd;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        body {
+            background-color: #eca1f3;
+        }
+        
+        nav a {
+            color: rgb(253, 193, 245);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            max-width: 200px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 150px;
+            height:150px;
+
+        }
+
+        button {
+            background-color: #eca1f3;
+            color: white;
+            border: none;
+
+        }
+        .catalog{
+            display: flex;
+            justify-content: center;
+        }
+    
+</style>
+</head>
+<body>
+    <header>
+        <h1>Toko Makanan</h1>
+        <nav>
+            <a href="homenasi.html">Nasi</a>
+            <a href="homekatsu.html">Katsu</a>
+            <a href="homesalad.html">Sayur</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang Di Toko Makanan Kami!</h2>
+        <p>Ayo Membeli.</p>
+    </section>
+<h2 style="text-align: center;">Produk Kami</h2>
+<div class="catalog">
+    </section>
+    <section id="products">   
+        <div class="product-list">
+            <div class="product">
+                <img src="nasi_goreng.jpg" alt="Produk 1">
+                <h3>nasi goreng</h3>
+                <p>Rp8.000</p>
+                <button onclick="addToCart('ritsu')"></button>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Email: quratuaini227@gmail.com</p>
+    <a href="https://wa.me/6289512151738">my contact</a>
+</body>
+</html>
